@@ -1,34 +1,34 @@
 {
-    "name": "laravel-enso/tasks",
+    "name": "cgdsoftware/tasks",
     "description": "Task management dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "tasks",
         "task-management"
     ],
-    "homepage": "https://github.com/laravel-enso/tasks",
+    "homepage": "https://github.com/cgdsoftware/tasks",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/dynamic-methods": "^2.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/tables": "^4.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/dynamic-methods": "^2.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/tables": "^4.0"
     },
     "autoload": {
         "psr-4": {
