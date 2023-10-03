@@ -20,12 +20,11 @@ return new class extends Migration
 
             $table->dateTime('reminder')->nullable();
 
-            $table->unsignedInteger('allocated_to')->nullable()->index();
-            $table->foreign('allocated_to')->references('id')->on('users');
-            $table->unsignedInteger('created_by')->nullable()->index();
-            $table->foreign('created_by')->references('id')->on('users');
-            $table->unsignedInteger('updated_by')->nullable()->index();
-            $table->foreign('updated_by')->references('id')->on('users');
+            $table->foreignId('allocated_to')->nullable()->constrained('users')->index()->name('tasks_allocated_to_foreign');
+
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('tasks_created_by_foreign');
+
+            $table->foreignId('updated_by')->nullable()->constrained('users')->index()->name('tasks_updated_by_foreign');
 
             $table->dateTime('reminded_at')->nullable()->index();
 
