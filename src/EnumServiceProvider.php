@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tasks;
+namespace LaravelLiberu\Tasks;
 
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
-use LaravelEnso\Tasks\Enums\Flags;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\Tasks\Enums\Flags;
 
 class EnumServiceProvider extends ServiceProvider
 {

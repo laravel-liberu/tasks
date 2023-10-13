@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tasks\Commands;
+namespace LaravelLiberu\Tasks\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Models\Task;
 
 class SendTaskReminders extends Command
 {

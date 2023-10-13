@@ -25,7 +25,7 @@
             "sortable",
             "slot"
         ],
-        "enum": "LaravelEnso\\Tasks\\Enums\\Flags"
+        "enum": "LaravelLiberu\\Tasks\\Enums\\Flags"
     }, {
         "label": "Reminder",
         "name": "reminder",
@@ -40,7 +40,7 @@
         "label": "Allocated To",
         "name": "allocatedTo",
         "data": "tasks.allocatedTo",
-        "resource": "LaravelEnso\\Users\\Http\\Resources\\User",
+        "resource": "LaravelLiberu\\Users\\Http\\Resources\\User",
         "meta": [
             "slot",
             "notExportable"
@@ -65,7 +65,7 @@
         "label": "By",
         "name": "createdBy",
         "data": "tasks.createdBy",
-        "resource": "LaravelEnso\\Users\\Http\\Resources\\User",
+        "resource": "LaravelLiberu\\Users\\Http\\Resources\\User",
         "meta": [
             "slot",
             "notExportable"

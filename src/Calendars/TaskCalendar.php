@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tasks\Calendars;
+namespace LaravelLiberu\Tasks\Calendars;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use LaravelEnso\Calendar\Contracts\CustomCalendar;
-use LaravelEnso\Calendar\Enums\Colors;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Calendar\Contracts\CustomCalendar;
+use LaravelLiberu\Calendar\Enums\Colors;
+use LaravelLiberu\Tasks\Models\Task;
 
 class TaskCalendar implements CustomCalendar
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Tasks;
+namespace LaravelLiberu\Tasks;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Tasks\Commands\SendTaskReminders;
-use LaravelEnso\Tasks\DynamicRelations\Tasks;
-use LaravelEnso\Tasks\Models\Task as Model;
-use LaravelEnso\Tasks\Observers\Task as Observer;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Tasks\Commands\SendTaskReminders;
+use LaravelLiberu\Tasks\DynamicRelations\Tasks;
+use LaravelLiberu\Tasks\Models\Task as Model;
+use LaravelLiberu\Tasks\Observers\Task as Observer;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

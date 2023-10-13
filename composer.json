@@ -32,18 +32,18 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Tasks\\": "src/",
-            "LaravelEnso\\Tasks\\Database\\Factories\\": "database/factories/"
+            "LaravelLiberu\\Tasks\\": "src/",
+            "LaravelLiberu\\Tasks\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Tasks\\AppServiceProvider",
-                "LaravelEnso\\Tasks\\AuthServiceProvider",
-                "LaravelEnso\\Tasks\\BroadcastServiceProvider",
-                "LaravelEnso\\Tasks\\WebsocketServiceProvider",
-                "LaravelEnso\\Tasks\\EnumServiceProvider"
+                "LaravelLiberu\\Tasks\\AppServiceProvider",
+                "LaravelLiberu\\Tasks\\AuthServiceProvider",
+                "LaravelLiberu\\Tasks\\BroadcastServiceProvider",
+                "LaravelLiberu\\Tasks\\WebsocketServiceProvider",
+                "LaravelLiberu\\Tasks\\EnumServiceProvider"
             ]
         }
     },

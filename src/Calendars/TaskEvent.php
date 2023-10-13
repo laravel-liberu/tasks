@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tasks\Calendars;
+namespace LaravelLiberu\Tasks\Calendars;
 
 use Carbon\Carbon;
-use LaravelEnso\Calendar\Contracts\Calendar;
-use LaravelEnso\Calendar\Contracts\ProvidesEvent;
-use LaravelEnso\Calendar\Contracts\Routable;
-use LaravelEnso\Calendar\DTOs\Route;
-use LaravelEnso\Calendar\Enums\Frequencies;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Calendar\Contracts\Calendar;
+use LaravelLiberu\Calendar\Contracts\ProvidesEvent;
+use LaravelLiberu\Calendar\Contracts\Routable;
+use LaravelLiberu\Calendar\DTOs\Route;
+use LaravelLiberu\Calendar\Enums\Frequencies;
+use LaravelLiberu\Tasks\Models\Task;
 
 class TaskEvent implements ProvidesEvent, Routable
 {

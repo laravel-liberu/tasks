@@ -1,17 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Count;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Create;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Destroy;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Edit;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\ExportExcel;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Index;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\InitTable;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Store;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\TableData;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Update;
-use LaravelEnso\Tasks\Http\Controllers\Tasks\Users;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Count;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Create;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Destroy;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Edit;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\ExportExcel;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Index;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\InitTable;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Store;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\TableData;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Update;
+use LaravelLiberu\Tasks\Http\Controllers\Tasks\Users;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/tasks')

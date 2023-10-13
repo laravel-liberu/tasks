@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Tasks\Enums;
+namespace LaravelLiberu\Tasks\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Flags extends Enum
 {

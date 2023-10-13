@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tasks\Services;
+namespace LaravelLiberu\Tasks\Services;
 
-use LaravelEnso\Tasks\Contracts\Taskable;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Contracts\Taskable;
+use LaravelLiberu\Tasks\Models\Task;
 
 class TaskableFactory
 {

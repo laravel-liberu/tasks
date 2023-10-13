@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Tasks\Events;
+namespace LaravelLiberu\Tasks\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use LaravelEnso\Tasks\Http\Responses\TaskCount;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Tasks\Http\Responses\TaskCount;
+use LaravelLiberu\Users\Models\User;
 
 class Task implements ShouldBroadcast
 {

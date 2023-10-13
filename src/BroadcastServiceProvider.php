@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tasks;
+namespace LaravelLiberu\Tasks;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Broadcast;

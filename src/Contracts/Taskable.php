@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tasks\Contracts;
+namespace LaravelLiberu\Tasks\Contracts;
 
 use Carbon\Carbon;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 interface Taskable
 {

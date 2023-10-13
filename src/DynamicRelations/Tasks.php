@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\DynamicRelations;
+namespace LaravelLiberu\Tasks\DynamicRelations;
 
 use Closure;
-use LaravelEnso\DynamicMethods\Contracts\Method;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Tasks\Models\Task;
 
 class Tasks implements Method
 {

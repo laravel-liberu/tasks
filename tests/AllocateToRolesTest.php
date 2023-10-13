@@ -2,7 +2,7 @@
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class AllocateToRolesTest extends TestCase

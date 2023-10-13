@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Responses;
+namespace LaravelLiberu\Tasks\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class TaskCount implements Responsable
 {

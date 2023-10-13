@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Controllers\Tasks;
+namespace LaravelLiberu\Tasks\Http\Controllers\Tasks;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Models\Task;
 
 class Destroy extends Controller
 {

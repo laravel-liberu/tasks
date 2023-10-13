@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Tasks\Notifications;
+namespace LaravelLiberu\Tasks\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,7 +8,7 @@ use Illuminate\Notifications\Messages\BroadcastMessage;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Models\Task;
 
 class TaskNotification extends Notification implements ShouldQueue
 {

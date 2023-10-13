@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Requests;
+namespace LaravelLiberu\Tasks\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Carbon;
-use LaravelEnso\Tasks\Enums\Flags;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Enums\Flags;
+use LaravelLiberu\Tasks\Models\Task;
 
 class ValidateTask extends FormRequest
 {

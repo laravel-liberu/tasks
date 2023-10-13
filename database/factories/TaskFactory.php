@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Tasks\Database\Factories;
+namespace LaravelLiberu\Tasks\Database\Factories;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Tasks\Enums\Flags;
-use LaravelEnso\Tasks\Models\Task;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Tasks\Enums\Flags;
+use LaravelLiberu\Tasks\Models\Task;
+use LaravelLiberu\Users\Models\User;
 
 class TaskFactory extends Factory
 {

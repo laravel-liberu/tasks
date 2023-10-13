@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Controllers\Tasks;
+namespace LaravelLiberu\Tasks\Http\Controllers\Tasks;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tasks\Http\Resources\Task;
+use LaravelLiberu\Tasks\Http\Resources\Task;
 
 class Index extends Controller
 {

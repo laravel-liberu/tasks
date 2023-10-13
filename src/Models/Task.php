@@ -1,17 +1,17 @@
 <?php
 
-namespace LaravelEnso\Tasks\Models;
+namespace LaravelLiberu\Tasks\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\Tasks\Notifications\TaskNotification;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\TrackWho\Traits\UpdatedBy;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\Tasks\Notifications\TaskNotification;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\TrackWho\Traits\UpdatedBy;
+use LaravelLiberu\Users\Models\User;
 
 class Task extends Model
 {

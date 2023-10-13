@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Observers;
+namespace LaravelLiberu\Tasks\Observers;
 
 use Illuminate\Support\Facades\Event as Facade;
-use LaravelEnso\Tasks\Events\Task as Event;
-use LaravelEnso\Tasks\Models\Task as Model;
+use LaravelLiberu\Tasks\Events\Task as Event;
+use LaravelLiberu\Tasks\Models\Task as Model;
 
 class Task
 {

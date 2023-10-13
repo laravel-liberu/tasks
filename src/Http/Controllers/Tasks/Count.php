@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Controllers\Tasks;
+namespace LaravelLiberu\Tasks\Http\Controllers\Tasks;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tasks\Http\Responses\TaskCount;
+use LaravelLiberu\Tasks\Http\Responses\TaskCount;
 
 class Count extends Controller
 {

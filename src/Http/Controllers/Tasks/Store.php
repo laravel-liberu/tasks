@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Controllers\Tasks;
+namespace LaravelLiberu\Tasks\Http\Controllers\Tasks;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tasks\Http\Requests\ValidateTask;
-use LaravelEnso\Tasks\Models\Task;
+use LaravelLiberu\Tasks\Http\Requests\ValidateTask;
+use LaravelLiberu\Tasks\Models\Task;
 
 class Store extends Controller
 {

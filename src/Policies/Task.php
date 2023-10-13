@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Tasks\Policies;
+namespace LaravelLiberu\Tasks\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Tasks\Models\Task as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Tasks\Models\Task as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Task
 {

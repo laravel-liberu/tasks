@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Tasks\Http\Controllers\Tasks;
+namespace LaravelLiberu\Tasks\Http\Controllers\Tasks;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Tasks\Forms\Builders\Task;
-use LaravelEnso\Tasks\Models\Task as Model;
+use LaravelLiberu\Tasks\Forms\Builders\Task;
+use LaravelLiberu\Tasks\Models\Task as Model;
 
 class Edit extends Controller
 {
