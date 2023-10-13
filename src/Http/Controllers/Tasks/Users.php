@@ -9,7 +9,7 @@ class Users extends Options
 {
     public function query()
     {
-        $roles = Config::get('enso.tasks.roles');
+        $roles = Config::get('liberu.tasks.roles');
 
         return parent::query()
             ->when($roles !== ['*'], fn ($query) => $query

@@ -21,7 +21,7 @@ class AllocateToRolesTest extends TestCase
     /** @test */
     public function can_limit_roles()
     {
-        Config::set('enso.tasks.roles', []);
+        Config::set('liberu.tasks.roles', []);
 
         $this->get(route('tasks.users'))->assertJson([]);
     }
@@ -29,7 +29,7 @@ class AllocateToRolesTest extends TestCase
     /** @test */
     public function can_select_all_roles()
     {
-        Config::set('enso.tasks.roles', ['*']);
+        Config::set('liberu.tasks.roles', ['*']);
 
         $this->get(route('tasks.users'))->assertJsonCount(User::count());
     }

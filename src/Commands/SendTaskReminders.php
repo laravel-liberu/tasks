@@ -7,7 +7,7 @@ use LaravelLiberu\Tasks\Models\Task;
 
 class SendTaskReminders extends Command
 {
-    protected $signature = 'enso:tasks:send-reminders';
+    protected $signature = 'liberu:tasks:send-reminders';
 
     protected $description = 'Send tasks reminders';
 

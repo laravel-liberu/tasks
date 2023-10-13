@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/tasks.php', 'enso.tasks');
+        $this->mergeConfigFrom(__DIR__.'/../config/tasks.php', 'liberu.tasks');
 
         return $this;
     }
@@ -36,8 +36,8 @@ class AppServiceProvider extends ServiceProvider
     private function publish(): self
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['enso-config', 'tasks-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['liberu-config', 'tasks-config']);
 
         $this->publishes([
             __DIR__.'/../client/src/js' => base_path('client/src/js'),
@@ -51,7 +51,7 @@ class AppServiceProvider extends ServiceProvider
         $this->commands(SendTaskReminders::class);
 
         $this->app->booted(fn () => $this->app->make(Schedule::class)
-            ->command('enso:tasks:send-reminders')->everyMinute());
+            ->command('liberu:tasks:send-reminders')->everyMinute());
 
         return $this;
     }
